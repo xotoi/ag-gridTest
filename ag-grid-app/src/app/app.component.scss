@@ -1,0 +1,22 @@
+.api-panel {
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.api-column {
+    flex-grow: 1;
+    padding: 0px 15px 5px;
+    text-align: center;
+}
+
+.api-column button {
+    width: 100%;
+}
+
+.parent-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

@@ -1,0 +1,19 @@
+<div class="parent-div">
+    <div class="api-panel">
+      <div class="api-column">
+        <button (click)="toggleSelectionMode()">Toggle selection mode</button>
+      </div>
+      <div class="api-column">
+        <span>Total rows count: {{rowsCount}}</span>
+      </div>
+      <div class="api-column">
+        <span>Selected rows count: {{selectedRowsCount}}</span>
+      </div>
+    </div>
+
+<ag-grid-angular
+    style="width: 1200; height: 1000px;"
+    class="ag-theme-balham"
+    [gridOptions]="gridOptions"
+    >
+</ag-grid-angular>
